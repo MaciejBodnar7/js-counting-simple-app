@@ -13,13 +13,15 @@
 
 let count = 0;
 let countEl = document.getElementById('count-el');
+let saveEl = document.getElementById('save-el');
 
 function increment() {
-  count = count + 1;
+  count += 1;
   countEl.innerText = count;
-  save();
 }
 
 function save() {
-  console.log(count);
+  let enteries = count + '-';
+  saveEl.innerText += enteries;
+  console.log(enteries);
 }

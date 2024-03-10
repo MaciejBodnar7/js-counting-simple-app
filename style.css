@@ -5,13 +5,16 @@ body {
 body > * {
   text-align: center;
 }
+p {
+  margin: 1em 1em 0;
+}
 .container {
   margin: 0 auto;
   width: 90%;
   max-width: 960px;
 }
 .card {
-  margin: 0 auto;
+  margin: 1em auto;
   background-color: bisque;
   border-radius: 20px;
   width: 40%;
