@@ -21,7 +21,10 @@ function increment() {
 }
 
 function save() {
-  let enteries = count + '-';
-  saveEl.innerText += enteries;
+  let enteries = count + ' - ';
+  saveEl.textContent += enteries;
   console.log(enteries);
+
+  count = 0;
+  countEl.innerText = count;
 }
