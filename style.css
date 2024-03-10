@@ -1,0 +1,32 @@
+body {
+  margin: 0;
+  font-family: 'Open Sans', sans-serif;
+}
+body > * {
+  text-align: center;
+}
+.container {
+  margin: 0 auto;
+  width: 90%;
+  max-width: 960px;
+}
+.card {
+  margin: 0 auto;
+  background-color: bisque;
+  border-radius: 20px;
+  width: 40%;
+  padding: 1em 0;
+  -webkit-box-shadow: 0px 8px 14px 0px rgba(37, 37, 45, 1);
+  -moz-box-shadow: 0px 8px 14px 0px rgba(37, 37, 45, 1);
+  box-shadow: 0px 8px 14px 0px rgba(37, 37, 45, 1);
+}
+.card h1 {
+  font-weight: 900;
+}
+#count-el {
+  font-size: 2em;
+  font-weight: 400;
+}
+#increment-btn {
+  padding: 0.5em 2em;
+}
