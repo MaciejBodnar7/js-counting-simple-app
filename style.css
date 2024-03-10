@@ -27,6 +27,21 @@ body > * {
   font-size: 2em;
   font-weight: 400;
 }
-#increment-btn {
+.btn {
   padding: 0.5em 2em;
+  cursor: pointer;
+  border-radius: 20rem;
+  border: 0;
+  transition: opacity 0.3s;
+}
+.btn:hover,
+.btn:focus {
+  opacity: 0.8;
+}
+
+#increment-btn {
+  background-color: chocolate;
+}
+#save-btn {
+  background-color: tomato;
 }
