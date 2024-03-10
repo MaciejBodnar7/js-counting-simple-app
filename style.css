@@ -4,6 +4,7 @@ body {
 }
 body > * {
   text-align: center;
+  color: #404040;
 }
 p {
   margin: 1em 1em 0;
